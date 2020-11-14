@@ -16,6 +16,7 @@ namespace OutlookDemo
         public Form1()
         {
             InitializeComponent();
+            uC_Inbox1.BringToFront();
         }
 
         private void moveImageBox(object sender)

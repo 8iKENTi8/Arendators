@@ -29,7 +29,7 @@ namespace OutlookDemo.UserControls
             adapter.Fill(ds);
             if (ds.Rows.Count > 0) 
             { 
-                MessageBox.Show("Eaffaf");
+                MessageBox.Show("Eaffaff");
                 guna2HtmlLabel1.Text = ds.Rows[0][0].ToString();
             }
               
