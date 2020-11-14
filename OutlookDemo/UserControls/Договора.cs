@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OutlookDemo.UserControls
+namespace OutlookDemo
 {
-    public partial class UC_Inbox2 : UserControl
+    public partial class Договора : UserControl
     {
-        public UC_Inbox2()
+        public Договора()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void panelContent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
