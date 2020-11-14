@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Inbox2));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -46,7 +45,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.guna2Button5);
             this.panel1.Controls.Add(this.guna2Button4);
             this.panel1.Controls.Add(this.guna2Button3);
             this.panel1.Controls.Add(this.guna2Button2);
@@ -57,22 +55,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(892, 97);
             this.panel1.TabIndex = 0;
-            // 
-            // guna2Button5
-            // 
-            this.guna2Button5.BorderRadius = 5;
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.Location = new System.Drawing.Point(723, 12);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button5.TabIndex = 4;
             // 
             // guna2Button4
             // 
@@ -184,7 +166,7 @@
             this.panelContent.Size = new System.Drawing.Size(580, 511);
             this.panelContent.TabIndex = 2;
             // 
-            // UC_Inbox
+            // UC_Inbox2
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
@@ -192,7 +174,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "UC_Inbox";
+            this.Name = "UC_Inbox2";
             this.Size = new System.Drawing.Size(892, 608);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -207,7 +189,6 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;

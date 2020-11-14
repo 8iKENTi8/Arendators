@@ -118,25 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAy1JREFUaEPt
-        mc9rE0EcxRN/K6JWEBQEUbwqetODoOLBmwrmJEigkO7sr2bxIlg0IK136UUU/BtaPahHQQpVkKIHBREV
-        W39bf6DpTd+3fUgcJ5gmM7sbyIMPhJ3Z73uTnezOTgo9/UeVSmV57PuXIqVeCKFSI3KMzd0jDuKXxjCb
-        u0cIPaMNQphmc/cIod9og+jOgXT11KrVakuCgYH9+Fhs+LG/B+8afuxF6SN950/Kk2ql0orI884g8Ct+
-        8xdxuLjQ+peKaBtmn5eh7ye5uZNVfX8PQj1luEbGcUUO+b6/Vgg973Cs1A1Dvyf4EvayXDZC0KMI8l0L
-        1g4/MPWOs2y6knmOAHUtUCfMgX0sn46SJFkN0+cNIWzxrFwur6KNe2FK1QwhbHGeNm4l3xjMPmnmNvkY
-        RdFK2rlT7HknDOZWiYPgGO3cCUajurFtcAe7TDt3gtGkbuyACdq5E0xMi0Gr4Iq8pp07wcjms6MZP2nn
-        RrIuMpg6AYvKZbS1LwxkvcnUBbI+o619ofhmk6kTomgTbe0LA9lpNHVAGIbbaWtfWIofNJk64gBt7Svy
-        /dMGQzd43ina2heuyAWjqRuGaGtfKH5LM3PJTdraValUWorinzUzl3xwskGBwkc0I+fIOz/t7QmFr+pG
-        rsGa6wrt7SgIgm0oLO/URkOHzOHBuJUxOlYRl/iOwSQtbkuGhSgdSHYIDcXTRjb82hcKDGkFMwOz4hxj
-        LU6xUpGpYJYgU8B4rQvLkbemYhkzw3itCyd91YrkgVnGa11YtF03FMoUTK1rjNe6+Db4SC+WIVN4pqxj
-        vMUJg1mDAqMgjQ2HZtRln0v2mxmrfSml+kK8HvL/jS+akQtmwTimt6pWqxsYw65kFTyo1G7c1U7i/eSs
-        zFuYjoG74DGYBrJK/gb0gHJM2qSP9JVzxqSG1JqvGYa7xIN2PXUkWVwmSu1I+vs3ynTk4T+SY9ImfaQv
-        D+dPmCYTQJ9OzbjH0/In/DhjQ2AjbS030pL8QYOQU3poHdxOH8pf2jwtn6pWKltw97lvGgCZlB1Lds+3
-        ZLMbz51BhH4A5GFal8FhOkXSxm49/atC4TdJsVo1yB/g1wAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAArNJREFUaEPt
