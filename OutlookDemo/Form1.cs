@@ -44,5 +44,15 @@ namespace OutlookDemo
         {
             uC_Inbox1.BringToFront();
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            руководители1.BringToFront();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            договора1.BringToFront();
+        }
     }
 }
