@@ -17,6 +17,8 @@ namespace OutlookDemo.UserControls
         {
             InitializeComponent();
 
+            
+
             DB dB = new DB();
 
             dB.openConnection();
@@ -25,20 +27,21 @@ namespace OutlookDemo.UserControls
             command.ExecuteNonQuery();
 
             MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+
             DataTable dt = new DataTable();
             adapter.Fill(dt);
 
             dataGridView1.DataSource = dt;
+
+            dataGridView1.AutoSizeColumnsMode =
+        DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.AutoResizeColumns();
+
+            dataGridView1.AutoSizeRowsMode =
+                DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridView1.AutoResizeRows(
+                DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

@@ -293,6 +293,31 @@
         rkJggg==
 </value>
   </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAARtSURBVGhD1ZpJqBxVFIYf0UTjsNBVFERFAxJRyKQGXTqiLsWdSBwWrkQEQZEEXUTUPDXGIRtd
+        iCAKIkhUcEBMFirBVdSIIi4ccUCD89R+/6m/2q62bg2v69UrP/h5fc7977l1eber7u3uucVkNBotQ6vR
+        FWgbehF9gd6wZXhwcSvQOrQZ7UB70EFUirstLVzHKnQ52oqeR5+jVrhUPzCelsbp6Cr0AHoZtb7oMjxE
+        91D7MHQeuh7poveiH9Ci4GG7g5o3oMr1vBh4+O6g5h9Z6X7x8N3hur3j4bvDdXvHw3eH6/aOh+8O1+0d
+        D98drts7Hr6L8V/tqtCCiMHB4Ux0VmghxODgcCY6K7QQYnBwOBMLLfQhehLdi7TLfQH9hFoRg4PDWXi7
+        baFX0BnRaQryK5G2Ot+iRrjrLBP5Bl2HlrUptDXMNeA7BX0cPWpwl4VM5C/0KDrW/Vc0LbQ9jA3Bfyqq
+        3YDa3nYib6EN7qq+F6ADeVDFAXR4GA3xWWg3+srtt6ND3RwQa5lVYmvTiXyNrkWxjPh7AnoGBU0KbQ6T
+        IdZ55bdoKfK4LQGxzjY6myextW58jaVT6JH2HoV0Vvodjakr9Cs6IkzAa50W31dDgk22BsSPZelybKsa
+        /0203jb5LkIfqGGa3JBibxgMsf4bVeywNSDWUkhiW9n4WkbXoHwZnYieRUlShXJ2hcEQ35Slk+yxNSA+
+        P0uXY5t8D2WZ0Z/oYZTfjbQ8b0O1z6i8UIq7wmAUZ+kk2d3DEK/P0uXYFhBejdY5VHwJ0oO3EXmnFHeG
+        wRDrA7YqpieyKUuXY5t8K/1Sr09Cz6m9DXnnFDvDYIhvzNJJCp8eEl+apcuxTb530IVoC/oZtSYvlGJ3
+        GAxx3Zv9flsD4luydDm2VY3fmLpC36NDwgS8rrr9/o3Gt0pBrIdmEtt6mYi4MkyG+FxU9u/fZktAfDLS
+        XSiJrb1NROt3evuhj1CfQvvQa6gwWUHuQVSJrb1NRNwRxobgvxhpqVVie68T0UXdHOYa8F2GGh2y3KXX
+        ieToJDh+aE1Cfg16AtX+J3LctWp8bRgfQRvQMdZGtAu12jSm+ARpUk8jfTfyLmpNDA4Op/kUrbVl7HGo
+        WLuGzyIJeXJJiMHB4SS/oDPdHGTpf/sIwrVIO3SxeogTmXfTGOcLExGkdDYRdw9xIuOjbI7zZRM5O2sZ
+        7VvyieSQ0pIScRqcxPmyPkdnLaPvhjSRH7OW9EQmcT6fyMEhTeS9rGW00akxzhdw/pwsGu0f0kTyN27h
+        +FAFXj1nxPyQJqI9nDaauqUWbr9l4NHtVw9NfQd6mhKD+TKU9H1Za/GBOA1tkw/Ee/LkYL6eJr0cvRSG
+        4hZFH0RI01sU/balsDtXkdQPYBYFD/sfaNJvWnaiqvOM2vSeWu5u9WA+DulTjVuR9lcfocabwxQunwSL
+        3jPzSHs5PWOk/Wg7WmPbbFBIS2DyNyr6uUf+HGiESw0Tru94NPmroS9RKe7y/4DrTb3vXrelI+bm/gFI
+        A9RKrH2msgAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="imgSlide.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
@@ -336,5 +361,11 @@
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>265, 17</value>
   </metadata>
 </root>

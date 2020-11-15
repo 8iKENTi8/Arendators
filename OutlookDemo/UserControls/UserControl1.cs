@@ -16,24 +16,34 @@ namespace OutlookDemo.UserControls
         public UserControl1()
         {
             InitializeComponent();
-            
-        }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
             DB dB = new DB();
+
             dB.openConnection();
-            MySqlCommand com = new MySqlCommand("SELECT * FROM `users`", dB.getConnection());
-            MySqlDataAdapter adapter = new MySqlDataAdapter(com);
-            DataTable ds = new DataTable();
-            adapter.Fill(ds);
-            if (ds.Rows.Count > 0) 
-            { 
-                MessageBox.Show("Eaffaff");
-                guna2HtmlLabel1.Text = ds.Rows[0][0].ToString();
-            }
-              
+
+            MySqlCommand command = new MySqlCommand("select * from организация", dB.getConnection());
+            command.ExecuteNonQuery();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+
+            dataGridView1.DataSource = dt;
+
+            dataGridView1.AutoSizeColumnsMode =
+        DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.AutoResizeColumns();
+
+            dataGridView1.AutoSizeRowsMode =
+                DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridView1.AutoResizeRows(
+                DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
+
+
 
         }
+
+       
     }
 }

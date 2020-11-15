@@ -40,10 +40,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imgSlide = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.договора1 = new OutlookDemo.Договора();
             this.userControl11 = new OutlookDemo.UserControls.UserControl1();
             this.uC_Inbox1 = new OutlookDemo.UserControls.UC_Inbox2();
-            this.договора1 = new OutlookDemo.Договора();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.руководители1 = new OutlookDemo.UserControls.Руководители();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -203,7 +205,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::OutlookDemo.Properties.Resources.icons8_microsoft_outlook_50px;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(20, 15);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(33, 29);
@@ -234,10 +236,16 @@
             this.panel2.Size = new System.Drawing.Size(892, 608);
             this.panel2.TabIndex = 1;
             // 
-            // guna2Elipse1
+            // договора1
             // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
+            this.договора1.BackColor = System.Drawing.Color.White;
+            this.договора1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.договора1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.договора1.Location = new System.Drawing.Point(0, 6);
+            this.договора1.Margin = new System.Windows.Forms.Padding(4);
+            this.договора1.Name = "договора1";
+            this.договора1.Size = new System.Drawing.Size(886, 596);
+            this.договора1.TabIndex = 2;
             // 
             // userControl11
             // 
@@ -259,16 +267,18 @@
             this.uC_Inbox1.Size = new System.Drawing.Size(886, 596);
             this.uC_Inbox1.TabIndex = 0;
             // 
-            // договора1
+            // guna2Elipse1
             // 
-            this.договора1.BackColor = System.Drawing.Color.White;
-            this.договора1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.договора1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.договора1.Location = new System.Drawing.Point(0, 6);
-            this.договора1.Margin = new System.Windows.Forms.Padding(4);
-            this.договора1.Name = "договора1";
-            this.договора1.Size = new System.Drawing.Size(886, 596);
-            this.договора1.TabIndex = 2;
+            this.guna2Elipse1.BorderRadius = 30;
+            this.guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.BorderRadius = 30;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.договора1;
             // 
             // руководители1
             // 
@@ -318,6 +328,8 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private UserControls.UserControl1 userControl11;
         private Договора договора1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private UserControls.Руководители руководители1;
     }
 }

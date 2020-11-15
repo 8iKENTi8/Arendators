@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace OutlookDemo
 {
@@ -15,17 +16,34 @@ namespace OutlookDemo
         public Договора()
         {
             InitializeComponent();
+
+
+            DB dB = new DB();
+
+            dB.openConnection();
+
+            MySqlCommand command = new MySqlCommand("select * from договор", dB.getConnection());
+            command.ExecuteNonQuery();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter(command);
+
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+            dataGridView1.AutoSizeColumnsMode =
+        DataGridViewAutoSizeColumnsMode.AllCells;
+                dataGridView1.AutoResizeColumns();
+
+                dataGridView1.AutoSizeRowsMode =
+                    DataGridViewAutoSizeRowsMode.AllCells;
+                dataGridView1.AutoResizeRows(
+                    DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
+
+
         }
 
-        private void panelContent_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+     
 
 
     }
